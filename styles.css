@@ -1,7 +1,10 @@
 @import url(./basic-styles.css);
 
-/* lesson styles */
-
 .container {
-    display: inline-grid;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(3,150px);
+    gap: 20px;
+    border: 10px solid blue;
+    justify-items: start;
 }
